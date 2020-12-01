@@ -1,0 +1,110 @@
+body {
+  margin: auto;
+  position: relative;
+  background-image: linear-gradient(45deg, #e8e8e8 25%, transparent 25%), linear-gradient(-45deg, #e8e8e8 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #e8e8e8 75%), linear-gradient(-45deg, transparent 75%, #e8e8e8 75%);
+  background-size: 50px 50px;
+  background-position: 0 0, 0 25px, 25px -25px, -25px 0px;
+}
+
+.Design{
+  background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-color: hsl(185, 75%, 39%);
+  background-position: right 48vw bottom 25vh, left 44vw top 35vh;
+  margin: 20vh auto 19vh auto;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 91vw;
+  height: 75vh;
+}
+
+.centre-content {
+  position: relative;
+  text-align: center;
+  padding: 200px 0 0 0;
+  width: 350px;
+  top: 16vh;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  z-index: 2;
+
+}
+
+.person-details {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.person-age {
+  display: inline-block;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.person-location {
+  margin-bottom: 50px;
+  font-size: 11px;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.person-followers {
+  display: inline-block;
+  padding: 0 20px 0 20px;
+}
+
+.person-followers-word {
+  padding: 10px 0 10px 0;
+  font-size: 11px;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.person-likes {
+  display: inline-block;
+  padding: 0 20px 0 20px;
+}
+
+.person-likes-word {
+  padding: 10px 0 10px 0;
+  font-size: 11px;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.person-photos {
+  display: inline-block;
+  padding: 0 20px 0 20px;
+}
+
+.person-photos-word {
+  padding: 10px 0 10px 0;
+  font-size: 11px;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.bg-pattern-card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.victor {
+  position: absolute;
+  left: 126px;
+  bottom: 205px;
+  border-radius: 100%;
+  border: solid;
+  border-width: 5px;
+  border-color: white;
+  z-index: 3;
+}
+
+.attribution {
+  text-align: center;
+}
